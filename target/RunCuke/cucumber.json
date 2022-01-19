@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7338221200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should verify login button is displayed",
+        "description": "",
+        "id": "login-page-navigate-functionality;user-should-verify-login-button-is-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 777610400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 250227300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on home page",
+            "match": {
+              "location": "LoginStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 329176000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see \"Log In\" displayed in one of the button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Log In",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginStepdefs.iShouldSeeDisplayedInOneOfTheButton(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login page navigate functionality",
+    "description": "As a customer\r\nI want to visit virgingames website",
+    "id": "login-page-navigate-functionality",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
